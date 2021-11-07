@@ -35,7 +35,11 @@ function Home() {
           Nothing to show!
         </h1>
       )}
-      {!data && <h1 className="flex justify-center">Nothing to show!</h1>}
+      {!data && (
+        <h1 className="flex justify-center text-2xl mt-[8%] font-extrabold">
+          Nothing to show!
+        </h1>
+      )}
       {data && data.lighthouseResult && data.lighthouseResult.audits && (
         <h2 className="flex justify-center mt-8 text-black text-2xl font-bold">
           Passed:
