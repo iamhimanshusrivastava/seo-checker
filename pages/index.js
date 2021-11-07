@@ -30,12 +30,12 @@ function Home() {
         </div>
       </div>
       <Input />
-      {data && data.error && (
+      {!data && (
         <h1 className="flex justify-center text-2xl mt-[8%] font-extrabold">
           Nothing to show!
         </h1>
       )}
-      {!data && (
+      {data && data.error && (
         <h1 className="flex justify-center text-2xl mt-[8%] font-extrabold">
           Nothing to show!
         </h1>
