@@ -2,7 +2,6 @@ import { useRef } from "react";
 import router, { useRouter } from "next/router";
 
 import { XIcon } from "@heroicons/react/solid";
-import Modal from "../components/modal";
 
 function Input() {
   const router = useRouter();
@@ -31,10 +30,6 @@ function Input() {
                 className="input input-bordered text-black"
                 ref={domainInputRef}
               />
-              {/* <XIcon
-                className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
-                onClick={() => (domainInputRef.current.value = "")}
-              /> */}
             </div>
             <div className="justify-center card-actions">
               <button className="btn btn-accent">Audit</button>
