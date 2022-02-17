@@ -61,6 +61,7 @@ function Home() {
                       </span>
                       <Link
                         block
+                        target="blank"
                         color="warning"
                         href="https://web.dev/uses-passive-event-listeners/"
                       >
@@ -86,13 +87,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
                       >
                         https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -108,13 +110,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-long-cache-ttl/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-long-cache-ttl/"
                       >
                         https://web.dev/uses-long-cache-ttl/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -129,13 +132,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/unminified-css/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/unminified-css/"
                       >
                         https://web.dev/unminified-css/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -150,13 +154,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/dom-size/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/dom-size/"
                       >
                         https://web.dev/dom-size/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -172,13 +177,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-responsive-images/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-responsive-images/"
                       >
                         https://web.dev/uses-responsive-images/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -196,13 +202,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/efficient-animated-content/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/efficient-animated-content/"
                       >
                         https://web.dev/efficient-animated-content/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -217,13 +224,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/redirects/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/redirects/"
                       >
                         https://web.dev/redirects/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -239,13 +247,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/unminified-javascript/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/unminified-javascript/"
                       >
                         https://web.dev/unminified-javascript/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -262,13 +271,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-rel-preconnect/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-rel-preconnect/"
                       >
                         https://web.dev/uses-rel-preconnect/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -285,13 +295,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/unused-css-rules/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/unused-css-rules/"
                       >
                         https://web.dev/unused-css-rules/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -308,13 +319,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/unused-javascript/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/unused-javascript/"
                       >
                         https://web.dev/unused-javascript/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -330,13 +342,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/time-to-first-byte/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/time-to-first-byte/"
                       >
                         https://web.dev/time-to-first-byte/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -352,13 +365,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/optimize-cls/#images-without-dimensions"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/optimize-cls/#images-without-dimensions"
                       >
                         https://web.dev/optimize-cls/#images-without-dimensions
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -375,13 +389,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-webp-images/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-webp-images/"
                       >
                         https://web.dev/uses-webp-images/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -397,13 +412,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-optimized-images/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-optimized-images/"
                       >
                         https://web.dev/uses-optimized-images/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -420,13 +436,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/offscreen-images/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/offscreen-images/"
                       >
                         https://web.dev/offscreen-images/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -443,13 +460,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/render-blocking-resources/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/render-blocking-resources/"
                       >
                         https://web.dev/render-blocking-resources/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -466,13 +484,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/lcp-lazy-loading/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/lcp-lazy-loading/"
                       >
                         https://web.dev/lcp-lazy-loading/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -489,13 +508,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/"
                       >
                         https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -512,13 +532,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/uses-text-compression/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/uses-text-compression/"
                       >
                         https://web.dev/uses-text-compression/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -534,13 +555,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/cls/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/cls/"
                       >
                         https://web.dev/cls/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -556,13 +578,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/total-byte-weight/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/total-byte-weight/"
                       >
                         https://web.dev/total-byte-weight/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
                 {data &&
@@ -579,13 +602,14 @@ function Home() {
                       <span className="font-bold">
                         Learn More: &nbsp;&nbsp;
                       </span>
-                      <a
-                        className="text-gray-800"
-                        href="https://web.dev/no-document-write/"
+                      <Link
+                        block
                         target="blank"
+                        color="warning"
+                        href="https://web.dev/no-document-write/"
                       >
                         https://web.dev/no-document-write/
-                      </a>
+                      </Link>
                     </Collapse>
                   )}
               </Collapse.Group>
@@ -607,13 +631,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-passive-event-listeners/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-passive-event-listeners/"
                     >
                       https://web.dev/uses-passive-event-listeners/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -632,13 +657,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
                     >
                       https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -652,13 +678,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-long-cache-ttl/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-long-cache-ttl/"
                     >
                       https://web.dev/uses-long-cache-ttl/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -670,13 +697,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/unminified-css/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/unminified-css/"
                     >
                       https://web.dev/unminified-css/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -689,13 +717,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/dom-size/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/dom-size/"
                     >
                       https://web.dev/dom-size/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -709,13 +738,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-responsive-images/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-responsive-images/"
                     >
                       https://web.dev/uses-responsive-images/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -731,13 +761,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/efficient-animated-content/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/efficient-animated-content/"
                     >
                       https://web.dev/efficient-animated-content/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -750,13 +781,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/redirects/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/redirects/"
                     >
                       https://web.dev/redirects/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -770,13 +802,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/unminified-javascript/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/unminified-javascript/"
                     >
                       https://web.dev/unminified-javascript/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -791,13 +824,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-rel-preconnect/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-rel-preconnect/"
                     >
                       https://web.dev/uses-rel-preconnect/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -812,13 +846,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/unused-css-rules/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/unused-css-rules/"
                     >
                       https://web.dev/unused-css-rules/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -833,13 +868,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/unused-javascript/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/unused-javascript/"
                     >
                       https://web.dev/unused-javascript/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -853,13 +889,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/time-to-first-byte/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/time-to-first-byte/"
                     >
                       https://web.dev/time-to-first-byte/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -872,13 +909,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/optimize-cls/#images-without-dimensions"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/optimize-cls/#images-without-dimensions"
                     >
                       https://web.dev/optimize-cls/#images-without-dimensions
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -893,13 +931,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-webp-images/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-webp-images/"
                     >
                       https://web.dev/uses-webp-images/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -913,13 +952,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-optimized-images/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-optimized-images/"
                     >
                       https://web.dev/uses-optimized-images/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -934,13 +974,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/offscreen-images/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/offscreen-images/"
                     >
                       https://web.dev/offscreen-images/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -955,13 +996,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/render-blocking-resources/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/render-blocking-resources/"
                     >
                       https://web.dev/render-blocking-resources/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -975,13 +1017,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/lcp-lazy-loading/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/lcp-lazy-loading/"
                     >
                       https://web.dev/lcp-lazy-loading/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -995,13 +1038,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/"
                     >
                       https://www.oscprofessionals.com/blog/remove-duplicate-javascript-and-css/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -1015,13 +1059,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/uses-text-compression/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/uses-text-compression/"
                     >
                       https://web.dev/uses-text-compression/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -1035,13 +1080,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/cls/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/cls/"
                     >
                       https://web.dev/cls/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -1055,13 +1101,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/total-byte-weight/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/total-byte-weight/"
                     >
                       https://web.dev/total-byte-weight/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
               {data &&
@@ -1076,13 +1123,14 @@ function Home() {
                     </Text>
                     <span className="flex mb-2"></span>
                     <span className="font-bold">Learn More: &nbsp;&nbsp;</span>
-                    <a
-                      className="text-gray-800"
-                      href="https://web.dev/no-document-write/"
+                    <Link
+                      block
                       target="blank"
+                      color="warning"
+                      href="https://web.dev/no-document-write/"
                     >
                       https://web.dev/no-document-write/
-                    </a>
+                    </Link>
                   </Collapse>
                 )}
             </Collapse.Group>
