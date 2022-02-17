@@ -4,7 +4,7 @@ import useSWRImmutable from "swr/immutable";
 
 import Input from "../components/Input";
 
-import { Collapse, Text, Grid, Link, Loading } from "@nextui-org/react";
+import { Collapse, Text, Loading } from "@nextui-org/react";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
