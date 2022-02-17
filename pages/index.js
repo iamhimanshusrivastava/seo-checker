@@ -25,6 +25,15 @@ function Home() {
           <div className="flex flex-col w-full p-4 justify-center mt-10  drawer-end">
             <div className="text-center text-8xl font-Poppins xxxs:text-6xl xxs:text-6xl xs:text-6xl font-extrabold text-transparent bg-clip-text bg-[#343a40]">
               <h1>Measure</h1>
+               <p className="italic text-gray-600">
+                  Made By: &nbsp;&nbsp;
+                <a href="https://twitter.com/coderhimanshu" target="blank">
+                  Himanshu Srivastava
+                </a>
+              </p>
+              <p className="italic text-gray-600">
+                Mini Project - Under the Supervision of Dr. Shiv Prakash
+              </p>
             </div>
           </div>
           <Input />
