@@ -1,8 +1,6 @@
 import { useRef } from "react";
 import router, { useRouter } from "next/router";
 
-import { XIcon } from "@heroicons/react/solid";
-
 function Input() {
   const router = useRouter();
 
@@ -18,21 +16,21 @@ function Input() {
   return (
     <form onSubmit={submitHandler}>
       <div className="flex flex-row w-full p-4 justify-center mt-10 drawer-end">
-        <div className="card w-[1200px] text-center shadow-2xl lg:card-side bg-[#2aa79b] text-accent-content">
+        <div className="card w-[1200px] text-center shadow-2xl lg:card-side bg-blue-500 text-accent-content">
           <div className="card-body">
             <div className="form-control">
-              <label className="label">
-                <span className="text-bold">Enter a webpage url:</span>
-              </label>
+              <div className="text-left font-bold text-4xl mb-6 font-Rubik text-gray-100">
+                See how well your website performs on top 24 SEO checks
+              </div>
               <input
                 type="text"
                 placeholder="domain.com"
-                className="input input-bordered text-black"
+                className="input input-bordered text-black mb-5 font-Rubik"
                 ref={domainInputRef}
               />
             </div>
             <div className="justify-center card-actions">
-              <button className="btn btn-accent">Audit</button>
+              <button className="btn shadow-xl">Audit</button>
             </div>
           </div>
         </div>
