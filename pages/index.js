@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { useRouter } from "next/router";
 import useSWRImmutable from "swr/immutable";
 
-import Input from "../components/Input";
+import InputBox from "../components/InputBox";
 
 import { Collapse, Text, Loading, Link } from "@nextui-org/react";
 
@@ -36,7 +36,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <Input />
+          <InputBox />
           {!data && (
             <h1 className="flex justify-center text-[#343a40] mb-[50px]">
               <Loading type="points" />
