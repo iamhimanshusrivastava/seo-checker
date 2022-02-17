@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import { Button, Input } from "@nextui-org/react";
 
-function Inputt() {
+function InputBox() {
   const router = useRouter();
 
   const domainInputRef = useRef();
@@ -39,4 +39,4 @@ function Inputt() {
   );
 }
 
-export default Inputt;
+export default InputBox;
