@@ -15,7 +15,7 @@ function Input() {
 
   return (
     <form onSubmit={submitHandler}>
-      <div className="flex flex-row w-full p-4 justify-center mt-10 drawer-end">
+      <div className="flex flex-row w-full p-4 justify-center mt-10 xs:mt-0 drawer-end">
         <div className="card w-[1200px] text-center shadow-2xl lg:card-side bg-blue-500 text-accent-content">
           <div className="card-body">
             <div className="form-control">

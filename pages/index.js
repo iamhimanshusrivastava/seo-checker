@@ -20,21 +20,21 @@ function Home() {
 
   return (
     <Fragment>
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <div>
-          <div className="flex flex-col w-full p-4 justify-center mt-10 drawer-end">
+          <div className="flex flex-col w-full p-4 justify-center mt-10  xs:mt-2 drawer-end">
             <div className="text-center text-8xl font-Poppins xxxs:text-6xl xxs:text-6xl xs:text-6xl font-extrabold text-transparent bg-clip-text bg-[#343a40]">
               <h1>Measure</h1>
             </div>
           </div>
           <Input />
           {!data && (
-            <h1 className="flex justify-center  mt-[16%] text-[#343a40] mb-[50px]">
+            <h1 className="flex justify-center mt-[16%] xs:mt-6 text-[#343a40] mb-[50px]">
               <Loading type="points" />
             </h1>
           )}
           {data && data.error && (
-            <h1 className="flex justify-center text-2xl mt-[16%] text-[#343a40] font-extrabold font-Poppins mb-[50px]">
+            <h1 className="flex justify-center text-2xl mt-[16%] xs:mt-4 text-[#343a40] font-extrabold font-Poppins mb-[50px]">
               Nothing to display!
             </h1>
           )}
