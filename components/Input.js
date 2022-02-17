@@ -25,17 +25,11 @@ function Inputt() {
                 See how well your website performs on top 24 SEO checks
               </div>
               <Input clearable placeholder="domain.com" ref={domainInputRef} />
-              {/* <input
-                type="text"
-                placeholder="domain.com"
-                className="input input-bordered text-black mb-5 font-Rubik"
-                ref={domainInputRef}
-              /> */}
+             
             </div>
             <div className="justify-center card-actions mt-3">
-              {/* <button className="btn shadow-xl">Audit</button> */}
               <Button css={{ bgColor: "$gray800" }} auto>
-                Warning
+                Audit
               </Button>
             </div>
           </div>
