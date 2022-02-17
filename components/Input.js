@@ -1,7 +1,9 @@
 import { useRef } from "react";
 import { useRouter } from "next/router";
 
-function Input() {
+import { Button, Input } from "@nextui-org/react";
+
+function Inputt() {
   const router = useRouter();
 
   const domainInputRef = useRef();
@@ -22,15 +24,19 @@ function Input() {
               <div className="text-left font-bold text-4xl mb-6 font-Rubik text-gray-100">
                 See how well your website performs on top 24 SEO checks
               </div>
-              <input
+              <Input clearable placeholder="domain.com" ref={domainInputRef} />
+              {/* <input
                 type="text"
                 placeholder="domain.com"
                 className="input input-bordered text-black mb-5 font-Rubik"
                 ref={domainInputRef}
-              />
+              /> */}
             </div>
-            <div className="justify-center card-actions">
-              <button className="btn shadow-xl">Audit</button>
+            <div className="justify-center card-actions mt-3">
+              {/* <button className="btn shadow-xl">Audit</button> */}
+              <Button css={{ bgColor: "$gray800" }} auto>
+                Warning
+              </Button>
             </div>
           </div>
         </div>
@@ -39,4 +45,4 @@ function Input() {
   );
 }
 
-export default Input;
+export default Inputt;
