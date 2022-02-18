@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import useSWRImmutable from "swr/immutable";
 
@@ -20,6 +21,10 @@ function Home() {
 
   return (
     <Fragment>
+    <Head>
+        <title>Measure - The SEO Checker Tool</title>
+        <meta name="description" content="SEO Checker Tool" />
+      </Head>
       <div className="flex flex-col">
         <div>
           <div className="flex flex-col w-full p-4 justify-center mt-10  drawer-end">
